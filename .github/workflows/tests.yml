@@ -4,6 +4,7 @@ on:
   push:
     branches:
     - main
+    - ci
   schedule:
     # Weekly.
     - cron: "0 0 * * 0"
